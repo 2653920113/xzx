@@ -1,0 +1,69 @@
+.footer{
+	height: 185px;
+	margin: 0 10px;
+	background-color: #F2F3F7;
+	border-top: 2px solid #D8DBE5;
+}
+.footer h2{
+	font-family: "微软雅黑";
+	color: gray;
+	float: left;
+	position: relative;
+	top: 50px;
+}
+.contain-t{
+	width: 895px;
+	margin: 0 auto;
+	position: relative;
+}
+.footer1 li{
+	font-family: "微软雅黑";
+	font-size: 15px;
+	float: left;
+    position: relative;
+    top: 57px;
+    left: 40px;
+    margin-left: 55px;
+}
+.footer1 a{
+	color: black;
+}
+.footer1 a:hover{
+	color: red;
+}
+.footer2 {
+	font-size: 13px;
+	position: absolute;
+	top:95px;
+	left: 175px;
+}
+.footer3{
+	font-size: 13px;
+	position: absolute;
+	top: 95px;
+	left: 300px;
+}
+.footer4{
+	font-size: 13px;
+	position: absolute;
+	top: 95px;
+	left: 415px;
+}
+.footer5{
+	font-size: 13px;
+	position: absolute;
+	top: 95px;
+	left: 530px;
+}
+.footer6{
+	font-size: 13px;
+	position: absolute;
+	top: 95px;
+	left: 635px;
+}
+.footer7{
+	font-size: 13px;
+	position: absolute;
+	top: 95px;
+	left: 760px;
+}

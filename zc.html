@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	*{
+		padding: 10px;
+		margin: 10px;
+	}
+	body{
+		background:url(images/beijing02.png) no-repeat;
+		position: relative;
+	}
+	select{
+		height: 40px;
+      	font-size: 14px;
+        font-weight: bold;
+        margin-left: -20px;
+	}
+	.sjp{
+		float: left;
+	}
+	.zc{
+		width: 400px;
+      	height: 380px;
+      	background-color:#e5e5e5; 
+      	position: absolute;
+      	top: 90px;
+      	left: 820px;
+	}
+	.xx1{
+		position: absolute;
+      	left: 237px;
+	}
+	.xx2{
+		position: absolute;
+		left: 75px;
+		top:145px;
+	}
+	.xx3{
+		position: absolute;
+		left: 75px;
+		top:205px;
+	}
+	.mmp{
+		margin-top: 20px;
+		padding-bottom: 40px;
+	}
+	a{
+		text-decoration: none;
+		font-size: 20px;
+		color: white;
+		background-color: #FF4400;
+		padding: 10px 40px;
+		margin:120px;
+		border-radius: 10px;
+	}
+	</style>
+</head>
+<body>
+	<div class="zc">
+		<h2>账号注册</h2>
+		<p class="sjp">手机号:</p>
+		<select>
+        	<option>中国大陆<span>+86</span></option>
+        	<option>美国</option>
+        	<option>中国台湾</option>
+        	<option>新加坡</option>
+        	<option>日本</option>
+        	<option>英国</option>
+        	<option>巴西</option>
+      	</select>
+      	<input class="xx1" type="text" placeholder="请输入你的手机号码">
+      	<p class="zhp">账号:</p>
+   		<input class="xx2" type="text" placeholder="请输入你的账号">
+   		<p class="mmp">密码:</p>
+   		<input class="xx3" type="password" placeholder="请输入你的密码">
+   		<a href="#">完成注册</a>
+	</div>
+</body>
+</html>
